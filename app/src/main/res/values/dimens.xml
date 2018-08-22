@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="linearLayoutTextViewMargin">40dp</dimen>
+
+    <dimen name="eventNameTextViewTextSize">75sp</dimen>
+
+    <dimen name="registerButtonTextSize">30sp</dimen>
+
+    <dimen name="scrollViewTextSize">40sp</dimen>
+
+    <dimen name="scrollbarSize">50dp</dimen>
+
+    <dimen name="linearLayoutEventInfoPadding">20dp</dimen>
+
+    <dimen name="textViewIconPadding">20dp</dimen>
+
+</resources>

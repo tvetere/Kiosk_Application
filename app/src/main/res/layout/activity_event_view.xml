@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayoutEventView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventViewActivity"
+    android:background="@drawable/zebra_design_background"
+    android:orientation="vertical"
+    android:weightSum="8">
+
+
+    <TextView
+        android:id="@+id/eventNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/loremIpsumDummyStringSmall"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/eventNameTextViewTextSize"
+        android:layout_weight="2"/>
+
+
+    <ScrollView
+        android:id="@+id/eventInformationScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        style="@style/eventInformationScrollbarStyle">
+
+        <LinearLayout
+            android:id="@+id/eventInformationLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="@dimen/linearLayoutEventInfoPadding"
+            android:paddingLeft="@dimen/linearLayoutEventInfoPadding">
+
+
+            <TextView
+                android:id="@+id/eventDateTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/loremIpsumDummyStringSmall"
+                android:textSize="@dimen/scrollViewTextSize"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="@dimen/linearLayoutTextViewMargin"
+                android:drawableStart="@drawable/calendar_icon"
+                android:drawablePadding="@dimen/textViewIconPadding"/>
+
+            <TextView
+                android:id="@+id/eventTimeTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/loremIpsumDummyStringSmall"
+                android:textSize="@dimen/scrollViewTextSize"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="@dimen/linearLayoutTextViewMargin"
+                android:drawableStart="@drawable/time_icon"
+                android:drawablePadding="@dimen/textViewIconPadding"/>
+
+            <TextView
+                android:id="@+id/eventLocationTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/loremIpsumDummyStringSmall"
+                android:textSize="@dimen/scrollViewTextSize"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="@dimen/linearLayoutTextViewMargin"
+                android:drawableStart="@drawable/location_icon"
+                android:drawablePadding="@dimen/textViewIconPadding"/>
+
+            <TextView
+                android:id="@+id/eventPriceTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/loremIpsumDummyStringSmall"
+                android:textSize="@dimen/scrollViewTextSize"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="@dimen/linearLayoutTextViewMargin"
+                android:drawableStart="@drawable/price_icon"
+                android:drawablePadding="@dimen/textViewIconPadding"/>
+
+            <TextView
+                android:id="@+id/eventOwnerNameTextField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/loremIpsumDummyStringSmall"
+                android:textSize="@dimen/scrollViewTextSize"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="@dimen/linearLayoutTextViewMargin"
+                android:drawableStart="@drawable/eventowner_icon"
+                android:drawablePadding="@dimen/textViewIconPadding"/>
+
+            <TextView
+                android:id="@+id/eventOwnerEmailTextField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/loremIpsumDummyStringSmall"
+                android:textSize="@dimen/scrollViewTextSize"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="@dimen/linearLayoutTextViewMargin"
+                android:drawableStart="@drawable/email_icon"
+                android:drawablePadding="@dimen/textViewIconPadding" />
+
+            <TextView
+                android:id="@+id/eventDescriptionTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/loremIpsumDummyStringBig"
+                android:textSize="@dimen/scrollViewTextSize"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/registrationButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:text="@string/registerString"
+        android:textSize="@dimen/registerButtonTextSize"
+        android:background="@color/darkGray"/>
+
+</LinearLayout>
