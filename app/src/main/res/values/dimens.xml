@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <dimen name="linearLayoutTextViewMargin">40dp</dimen>
+    <dimen name="linearLayoutTextViewMargin">65dp</dimen>
 
     <dimen name="eventNameTextViewTextSize">75sp</dimen>
 
@@ -11,8 +11,8 @@
 
     <dimen name="scrollbarSize">50dp</dimen>
 
-    <dimen name="linearLayoutEventInfoPadding">20dp</dimen>
+    <dimen name="linearLayoutEventInfoPadding">40dp</dimen>
 
-    <dimen name="textViewIconPadding">20dp</dimen>
+    <dimen name="textViewIconPadding">40dp</dimen>
 
 </resources>
