@@ -8,7 +8,7 @@
     tools:context=".RegistrationActivity"
     android:background="@drawable/zebra_design_background"
     android:orientation="vertical"
-    android:weightSum="1">
+    android:weightSum="8">
 
 
     <TextView
@@ -20,7 +20,7 @@
         android:textAlignment="center"
         android:textSize="50sp"
         android:textColor="@android:color/white"
-        android:layout_weight=".25"/>
+        android:layout_weight="1.5"/>
 
 
     <android.support.design.widget.TextInputLayout
@@ -28,7 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:textColorHint="@android:color/white"
-        android:layout_weight=".50"
+        android:layout_weight="5"
         android:layout_gravity="center"
         android:gravity="center"
         app:hintEnabled="false">
@@ -57,7 +57,7 @@
         android:textSize="45sp"
         android:textColor="@android:color/white"
         android:background="@color/darkGray"
-        android:layout_weight=".25"/>
+        android:layout_weight="1.5"/>
 
 
 </LinearLayout>
