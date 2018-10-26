@@ -35,7 +35,7 @@
         <activity
             android:name=".RegistrationActivity"
             android:screenOrientation="landscape" />
-        <activity android:name=".EventSelectionActivity"></activity>
+        <activity android:name=".EventSelectionActivity" />
     </application>
 
 </manifest>
